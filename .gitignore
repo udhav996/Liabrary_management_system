@@ -1,0 +1,19 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore screenshots / local images not meant for repo
+*.png
+*.jpg
+*.jpeg
+
+# Ignore logs
+*.log
+
+# Ignore database dump or credentials file, if any
+db_config.py
